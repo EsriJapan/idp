@@ -11,7 +11,7 @@ jobs:
         id: translate
         uses: jerCarre/deepl_action@1.0
         with:
-          input_file: "./Documentation/OpenID/AWS\ Cognito.md"
+          input_file: "./Documentation/OpenID/AWS\\ Cognito.md"
           output_file: "./Documentation/OpenID/ja/"
           output_lang: "JA-JP"
           deepl_free_token: "${{ secrets.DEEPLTOKEN }}"
